@@ -2,6 +2,7 @@
   "name": "bedroom",
   "version": "0.1.0",
   "private": true,
+  "description": "Bedroom is a series of mini games to do with friends from your bedroom",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
