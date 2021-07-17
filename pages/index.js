@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import FrontLayout from "../layouts/FrontLayout";
 
 export default function Index() {
   return (
@@ -14,22 +15,7 @@ export default function Index() {
       </Head>
 
       <main>
-      <div className="container rounded bg-white p-2 w-4/5 m-20">
-        <h1 className="flex text-3xl font-black font-sans">
-          Bedroom{" "}
-          <span>
-            <Image
-              src="/vercel.svg"
-              alt="Bedroom Logo"
-              width={96}
-              height={16}
-            />
-          </span>
-        </h1>
-        <div className="container m-10 flex">
-          <div></div>
-        </div>
-        </div>
+        <FrontLayout sessionTitle="Create" />
       </main>
 
       <footer className="flex flex-col container mx-auto">

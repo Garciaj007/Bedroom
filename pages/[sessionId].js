@@ -1,9 +1,9 @@
-import { useRouter } from "next/router"
+import { useRouter } from "next/router";
+import FrontLayout from "../layouts/FrontLayout";
 
-export default function Session()
-{
-    const router = useRouter()
-    const { sessionId } = router.query
+export default function Session() {
+  const router = useRouter();
+  const { sessionId } = router.query;
 
-    return <h1>Hello {sessionId}</h1>
+  return <FrontLayout sessionTitle="Join" />;
 }
